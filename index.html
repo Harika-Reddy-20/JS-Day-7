@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Array Methods: Map,Filter,Reduce,Index,Push,Pop,Shift,Unshift,Slice,Some,Every</h1>
+    <h3>Array:</h3>
+    <p>We can store any type of data type.</p>
+    <h3>Index:</h3>
+    <p>The 1st index of an array is strted with 0.</p>
+    <h5>Syntax:</h5>
+    <p>const value = arr.indexOf(3);</p>
+    <h2>Array Methods:</h2>
+    <h4>Map:</h4>
+    <p> Map is an method in js , which is used to transform an array ie., which will itearte through each and every
+        element.</p>
+    <h5>Syntax:</h5>
+    <p>const result =arr.map( x => x*2);</p>
+    <h4>Filter:</h4>
+    <p>which checks the condition and filter all the elements in array and return you a new array.</p>
+    <h5>Syntax:</h5>
+    <p>const result1 = arr.filter(x=> x>3);</p>
+    <h4>Reduce:</h4>
+    <p> whenever the sum of all eements in an array or whenever we want to find the max value in array.</p>
+    <h5>Syntax:</h5>
+    <p>const total = arr.reduce((accumulator,current) => accumulator=accumulator+current,0);</p>
+    <h4>Push:</h4>
+    <p>It will add one more value at the en dof the array.</p>
+    <h5>Syntax:</h5>
+    <p>arr.push(7);</p>
+    <h4>Pop:</h4>
+    <p>It removes an element from the end of the array</p>
+    <h5>Syntax:</h5>
+    <p>arr.pop();</p>
+    <h4>Shift:</h4>
+    <p>It will remove first element an array.</p>
+    <h5>Syntax:</h5>
+    <p>arr.shift(); </p>
+    <h4>Unshift:</h4>
+    <p>It will add one value at the first of an array.</p>
+    <h5>Syntax:</h5>
+    <p>arr.unshift(1);</p>
+    <h4>Slice:</h4>
+    <p>It will not manipulate the array, it will try to remove elements from an array.</p>
+    <h5>Syntax:</h5>
+    <p>const val3 = arr.slice(1,3); </p>
+    <h4>Some and Every:</h4>
+    <p>Both these are take in a condition and check if all the elements in th array is satisfying the condition or not ,
+        they always return a boolean value.</p>
+    <h5>Syntax 1:</h5>
+    <p>const val1 = arr.some(x => x%2 == 0); </p>
+    <h5>Syntax 2:</h5>
+    <p>const val1 = arr.every(x => x%2 == 0);</p>
+</body>
+
+</html>
